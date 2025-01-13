@@ -1,0 +1,35 @@
+/* Home.css */
+
+/* Home Section Container */
+.home-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fcfafa; /* Background color */
+    /* background-image: url("/src/assets/images/main.jpeg"); Background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+  }
+  
+  /* Heading Styles */
+  .home-heading {
+    font-size: 2.5rem;
+    color: rgb(26, 26, 25);
+    margin-bottom: 1rem;
+  }
+  
+  /* Text Paragraph Styles */
+  .home-text {
+    font-size: 1.2rem;
+    color: #0b0b0b;
+    margin-bottom: 0rem;
+  }
+  
+  /* Displayed Image Styles */
+  .home-image {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
